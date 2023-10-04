@@ -21,7 +21,7 @@ if not mt5.initialize():
     print("initialize() failed, error code =",mt5.last_error())
     quit()
  
-# connect to the trade account specifying a password and a server
+# connect to the trade account and a server
 if mt5.initialize:
     account_info=mt5.account_info()
     if account_info!=None:
