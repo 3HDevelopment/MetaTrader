@@ -135,5 +135,5 @@ plt.xticks(rotation=45)
 plt.show()
 
 # Excel 
-excel_filename = "XAUUSD_4H_with_Hoffman x1.5.xlsx"
+excel_filename = "EURUSD_4H_with_Hoffman x1.5.xlsx"
 position.to_excel(excel_filename)
